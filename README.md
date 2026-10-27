@@ -18,7 +18,6 @@ Hệ thống quản lý nhân sự hỗ trợ quản lý thông tin nhân viên,
 - Triển khai: Render
 
 ## 4. Hướng dẫn chạy ứng dụng
-
 ### Backend
     cd backend
     npm install
@@ -36,12 +35,12 @@ Mở Git Bash mới tại thư mục dự án:
 Mở địa chỉ hiển thị trong Terminal, thường là http://localhost:5173.
 
 ## 5. Các liên kết dự án
-- GitHub Repository: Cập nhật sau
-- Docker Hub Backend: Cập nhật sau
-- Docker Hub Frontend: Cập nhật sau
-- Render App: Cập nhật sau
-- Render API: Cập nhật sau
-- MongoDB Atlas: Cập nhật sau
+- GitHub Repository: https://github.com/AnhQuan279205/237736_NguyenVietAnhQuan
+- Docker Hub Backend: https://hub.docker.com/r/anhquan279205/backend
+- Docker Hub Frontend: https://hub.docker.com/r/anhquan279205/frontend
+- Render App: https://web-237736.onrender.com
+- Render API: https://api-237736.onrender.com
+- MongoDB Atlas: mongodb+srv://hr_backend_user:hrbackend123@cluster0.kb9ga3u.mongodb.net/237736_NguyenVietAnhQuan?retryWrites=true&w=majority
 
 ## 6. Cấu trúc dự án
 - backend/models/: Mô hình dữ liệu
@@ -50,7 +49,7 @@ Mở địa chỉ hiển thị trong Terminal, thường là http://localhost:51
 - backend/Dockerfile: Cấu hình Docker Backend
 - frontend/src/: Mã nguồn Frontend
 - frontend/Dockerfile: Cấu hình Docker Frontend
-=======
+
 # 237736_NguyenVietAnhQuan
 Hệ thống quản lý nhân sự sử dụng kiến trúc Frontend và Backend tách biệt.
 >>>>>>> origin/main
