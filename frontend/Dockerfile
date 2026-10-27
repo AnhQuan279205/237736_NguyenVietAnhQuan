@@ -1,12 +1,22 @@
-FROM node:20-alpine
+
+FROM node:20-alpine AS build
 
 WORKDIR /app
 
 COPY package*.json ./
-RUN npm install
+RUN npm ci
 
 COPY . .
 
-EXPOSE 4173
+ARG VITE_API_URL=http://localhost:5000/api
+ENV VITE_API_URL=$VITE_API_URL
 
-CMD ["npm", "run", "dev", "--", "--host", "0.0.0.0", "--port", "4173"]
+RUN npm run build
+
+FROM nginx:alpine
+
+COPY --from=build /app/dist /usr/share/nginx/html
+
+EXPOSE 80
+
+CMD ["nginx", "-g", "daemon off;"]
