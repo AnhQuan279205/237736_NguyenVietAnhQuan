@@ -40,7 +40,7 @@ Mở địa chỉ hiển thị trong Terminal, thường là http://localhost:51
 - Docker Hub Frontend: https://hub.docker.com/r/anhquan279205/frontend
 - Render App: https://web-237736.onrender.com
 - Render API: https://api-237736.onrender.com
-- MongoDB Atlas: mongodb+srv://hr_backend_user:hrbackend123@cluster0.kb9ga3u.mongodb.net/237736_NguyenVietAnhQuan?retryWrites=true&w=majority
+- MongoDB Atlas: https://cloud.mongodb.com/v2/6a82863ae9e01d0b0221ba42#/explorer/6a828687669cc9eb12f95b2b/237736_NguyenVietAnhQuan/employees/find
 
 ## 6. Cấu trúc dự án
 - backend/models/: Mô hình dữ liệu
