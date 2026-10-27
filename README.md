@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Hệ thống quản lý nhân sự
 
 ## 1. Thông tin sinh viên
@@ -49,3 +50,7 @@ Mở địa chỉ hiển thị trong Terminal, thường là http://localhost:51
 - backend/Dockerfile: Cấu hình Docker Backend
 - frontend/src/: Mã nguồn Frontend
 - frontend/Dockerfile: Cấu hình Docker Frontend
+=======
+# 237736_NguyenVietAnhQuan
+Hệ thống quản lý nhân sự sử dụng kiến trúc Frontend và Backend tách biệt.
+>>>>>>> origin/main
